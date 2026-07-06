@@ -343,6 +343,22 @@ No code — structure and purpose only.
 - Inputs: Morocco match events and Spain 2022 tournament data
 - Outputs: comparative visualizations, defensive structure analysis and evidence supporting or rejecting the Morocco-specific hypotheses.
 
+**05b_wing_play_and_substitute_impact.ipynb** (extends Group G)
+- Objective: establish, with data, that Morocco's low block specifically denied Spain's
+  central progression, that Spain's resulting attack was left-side-heavy and predictable
+  due to a lack of a genuine right-sided winger (Ferran Torres nominally started wide
+  right but profiles more as an inverted/central forward), and that this contributed
+  directly to Spain failing to score. The notebook then isolates the Nico Williams
+  substitution as the clearest single data point of what a genuine winger changed —
+  comparing his output directly against Ferran Torres's in the same match, and comparing
+  Spain's attacking output in the minutes before vs after he entered.
+- Inputs: Spain vs Morocco match event data (from Notebook 05), lineup/substitution data
+- Outputs: side-by-side wing analysis (left vs right flank output), a verified
+  substitution timeline, a full Nico Williams impact profile (heatmap, xG, touches in
+  box, dribbles, carries, minutes played), a direct Ferran Torres vs Nico Williams
+  comparison on the right flank, and a before/after team-output comparison split at the
+  substitution minute.
+
 **06_spain_2022_player_analysis.ipynb** (Group H)
 - Objective: analyze the individual performances and tactical roles of Spain's key players, including Rodri, Pedri, Busquets, Dani Olmo, Gavi, Jordi Alba, Ferran Torres and Álvaro Morata.
 - Inputs: cleaned 2022 player event data
@@ -387,7 +403,7 @@ No code — structure and purpose only.
 - Inputs: summary tables, metrics and visualizations from Notebooks 04–09
 - Outputs: before-vs-after comparison figures, hypothesis scorecard, final conclusions
   and publication-ready visualizations for the research paper.
-  
+
 # PART 4 — VISUALIZATION PLAN
 
 Only visualizations that answer a specific question are included.
