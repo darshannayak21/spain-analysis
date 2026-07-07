@@ -1,5 +1,5 @@
 # Research & Implementation Plan
-## "When Possession Isn't Enough: A Tactical Analysis of Spain at Qatar 2022" (→ Euro 2024)
+## 
 
 ---
 
